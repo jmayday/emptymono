@@ -21,13 +21,13 @@
 
 	<dependencyManagement>
 		<dependencies>
-<!--			<dependency>-->
-<!--				&lt;!&ndash;        webflux downgraded due to webclient issue&ndash;&gt;-->
-<!--				&lt;!&ndash;        https://github.com/spring-projects/spring-boot/issues/20409&ndash;&gt;-->
-<!--				<groupId>org.springframework</groupId>-->
-<!--				<artifactId>spring-webflux</artifactId>-->
-<!--				<version>5.1.14.RELEASE</version>-->
-<!--			</dependency>-->
+			<dependency>
+				<!--        webflux downgraded due to webclient issue-->
+				<!--        https://github.com/spring-projects/spring-boot/issues/20409-->
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-webflux</artifactId>
+				<version>5.1.14.RELEASE</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 
